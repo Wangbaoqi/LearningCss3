@@ -1,0 +1,32 @@
+.test{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border-radius: 5px ;
+    border: 1px ;
+    position: relative;
+    /*transition: width 2s,height 2s,transform 2s ;
+    -webkit-transition: width 2s,height 2s,transform 2s;*/
+    animation: anim 5s infinite alternate;
+    -webkit-animation: anim 5s;
+}
+/*.test:hover{
+    width: 150px;
+    height: 150px;
+    transform:scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+}*/
+@keyframes anim {
+    0%{background: aquamarine;left: 0px;top: 0px}
+    25%{background-color: burlywood;left: 200px;top:0px}
+    50%{background-color: blueviolet;left: 200px;top: 200px}
+    75%{background-color: cornflowerblue;left:0px;top: 200px }
+    100%{background-color: aquamarine;left: 0px;top: 0px}
+}
+@-webkit-keyframes anim {
+     0%{background: aquamarine;left: 0px;top: 0px}
+     25%{background-color: burlywood;left: 200px;top:0px}
+     50%{background-color: blueviolet;left: 200px;top: 200px}
+     75%{background-color: cornflowerblue;left:0px;top: 200px }
+     100%{background-color: aquamarine;left: 0px;top: 0px}
+ }
