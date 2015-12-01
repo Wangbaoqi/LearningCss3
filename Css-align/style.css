@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding: 3px 5px;
+}
+a:link,a:visited{
+    text-decoration: none;
+}
+a:hover,a:visited{
+    background-color: crimson;
+}
+ul{
+    background-color: bisque;
+    width: 200px;
+    text-align: center;
+}
