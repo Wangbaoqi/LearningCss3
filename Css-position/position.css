@@ -1,0 +1,27 @@
+.position1{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+.position2{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+    left: 10px;
+    top: 0px;
+    z-index: 2;
+}
+.position3{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    position: relative;
+    left: 10px;
+    top: -10px;
+    z-index: 3;
+}
