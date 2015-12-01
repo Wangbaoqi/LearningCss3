@@ -1,0 +1,22 @@
+p{
+    /*text-align: center;*/
+    direction: ltr;
+}
+h1{
+    text-indent: -1em;
+    padding-left: 2em;
+}
+#te1{
+    text-transform: capitalize;
+    white-space: pre;
+    word-spacing: 5px;
+    text-shadow: 5px 5px 2px red;
+}
+#te2{
+    width: 200px;
+    text-transform: lowercase;
+    word-wrap: normal;
+}
+#te3{
+    text-transform: uppercase;
+}
